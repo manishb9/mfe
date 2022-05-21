@@ -14,7 +14,7 @@ const prodConfig = {
         new ModuleFederationPlugin({
             name: 'çontainer',
             remotes: {
-                marketing: `marketing@${domain}`
+                marketing: `marketing@${domain}/marketing/remoteEntry.js`
             }
         })
     ]
