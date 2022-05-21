@@ -17,8 +17,8 @@ const prodConfig = {
                 marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
             },
             shared: packageJson.dependencies,
-        })
-    ]
+        }),
+    ],
 };
 
 module.exports = merge(commonConfig, prodConfig);
